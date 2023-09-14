@@ -32,9 +32,13 @@ public class Main {
         playlist.addSong(song4);
         playlist.addSong(song5);
         playlist.addSong(song6);
+        playlist.addSong(song6);
+        playlist.addSong(song7);
         playlist.addSong(song7);
 
-        playlist.addSong(song1); // пытаемся добавить уже существующую песню (должно выйти сообщение, что нельзя добавить)
+        playlist.addSong(song1);
+        playlist.addSong(song7);// пытаемся добавить уже существующую песню (должно выйти сообщение, что нельзя добавить)
+        playlist.addSong(song7);// пытаемся добавить уже существующую песню (должно выйти сообщение, что нельзя добавить)
 
         // проиграть все песни
         playlist.playSongs();
