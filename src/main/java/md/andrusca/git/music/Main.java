@@ -42,6 +42,7 @@ public class Main {
         playlist.addSong(song8);
         playlist.addSong(song9);
         playlist.addSong(song10);
+        System.out.println("hello");
 
         playlist.addSong(song1);
         playlist.addSong(song7);// пытаемся добавить уже существующую песню (должно выйти сообщение, что нельзя добавить)
