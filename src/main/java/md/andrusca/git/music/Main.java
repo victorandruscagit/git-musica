@@ -12,6 +12,7 @@ public class Main {
         Author author3 = new Author("Киркоров");
         Author author4 = new Author("Sting");
         Author author5 = new Author("Queen");
+        Author author6 = new Author("Queen2");
 
 
         // список песен с авторами
