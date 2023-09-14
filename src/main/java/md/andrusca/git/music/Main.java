@@ -18,7 +18,7 @@ public class Main {
         // список песен с авторами
         Song song1 = new Song("Щелкунчик333", author1);
         Song song2 = new Song("Лебединое озеро3333", author1);
-        Song song3 = new Song("Времена года", author2);
+        Song song3 = new Song("Времена года", author6);
         Song song4 = new Song("Цвет настроения синий", author3);
         Song song5 = new Song("Shape of My Heart", author4);
         Song song6 = new Song("Show must go on", author5);
