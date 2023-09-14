@@ -48,5 +48,6 @@ public class Main {
 
         // проиграть все песни
         playlist.playSongs();
+        playlist.playSongs();
     }
 }
