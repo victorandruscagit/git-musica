@@ -34,9 +34,6 @@ public class Song implements ISong {
         return author;
     }
 
-    public void setAuthor(Author author) {
-        this.author = author;
-    }
 
 
 }
