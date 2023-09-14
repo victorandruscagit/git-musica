@@ -7,7 +7,7 @@ import md.andrusca.git.music.objects.Song;
 public class Main {
     public static void main(String[] args) {
         // список авторов
-        Author author1 = new Author("Чайковский");
+        Author author1 = new Author("Чайковский debile");
         Author author2 = new Author("Вивальди");
         Author author3 = new Author("Киркоров");
         Author author4 = new Author("Sting");
@@ -15,7 +15,7 @@ public class Main {
 
 
         // список песен с авторами
-        Song song1 = new Song("Ceaikovskiiiiiiiii", author1);
+        Song song1 = new Song("Ceaikovskiiiiiiiii blaha muha", author1);
         Song song2 = new Song("Vivalid", author1);
         Song song3 = new Song("Времена года", author2);
         Song song4 = new Song("Цвет настроения синий", author3);
