@@ -17,7 +17,7 @@ public class Song implements ISong {
 
     @Override
     public void play() {
-        System.out.println("Играет песня: " + name + ", автор: " + author.getName());
+        System.out.println("pIesa: " + name + ", autor: " + author.getName());
     }
 
     @Override
