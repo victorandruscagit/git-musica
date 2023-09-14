@@ -15,13 +15,16 @@ public class Main {
 
 
         // список песен с авторами
-        Song song1 = new Song("Щелкунчик", author1);
-        Song song2 = new Song("Лебединое озеро", author1);
+        Song song1 = new Song("Ceaikovskiiiiiiiii", author1);
+        Song song2 = new Song("Vivalid", author1);
         Song song3 = new Song("Времена года", author2);
         Song song4 = new Song("Цвет настроения синий", author3);
         Song song5 = new Song("Shape of My Heart", author4);
         Song song6 = new Song("Show must go on", author5);
-        Song song7 = new Song("We will rock you", author5);
+        Song song7 = new Song("Show must go on", author5);
+        Song song8 = new Song("We will rodddddck you", author5);
+        Song song9 = new Song("We willsad rodddck you", author5);
+        Song song10 = new Song("We will rodddasdfsadck you", author5);
 
 
         // заполняем плейлист
@@ -32,9 +35,12 @@ public class Main {
         playlist.addSong(song4);
         playlist.addSong(song5);
         playlist.addSong(song6);
-        playlist.addSong(song6);
+        playlist.addSong(song6);//removees settter
         playlist.addSong(song7);
         playlist.addSong(song7);
+        playlist.addSong(song8);
+        playlist.addSong(song9);
+        playlist.addSong(song10);
 
         playlist.addSong(song1);
         playlist.addSong(song7);// пытаемся добавить уже существующую песню (должно выйти сообщение, что нельзя добавить)
